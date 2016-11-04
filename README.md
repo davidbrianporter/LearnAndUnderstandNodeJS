@@ -8,3 +8,5 @@ Node JS Common JS modules - set of standards
 Lecture 17
 First-class functions - can be used like any other type
 
+// TODO
+// next lecture building a module 18
