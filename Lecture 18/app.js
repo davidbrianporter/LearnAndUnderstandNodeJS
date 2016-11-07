@@ -1,1 +1,4 @@
-require('./greet.js');
+var salutations = require('./greet.js');
+
+salutations();
+
