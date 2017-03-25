@@ -7,4 +7,22 @@ var writeable = fs.createWriteStream(__dirname + '/greetcopy.txt', { encoding: '
 readable.on('data', function(chunk) {
     console.log(chunk);
     writeable.write(chunk);
+
+
+
+function fu(cb) {
+    console.log("called in fu");
+
+    cb();
+}
+
+fu(callback);
+
+function callback() {
+    console.log("hi david");
+}
+
+
+
 });
+
